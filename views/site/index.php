@@ -31,11 +31,11 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'attribute' => 'year',
-                'label'     => 'Год постройки.'
+                'label'     => 'Боковая рама: год постройки.'
             ],
             [
                 'attribute' => 'thickness',
-                'label'     => 'Толщина колеса'
+                'label'     => 'Колесная пара: толщина колеса'
             ],
 
             ['class' => 'yii\grid\ActionColumn'],
