@@ -15,7 +15,7 @@ class m201204_114347_create_carriage_table extends Migration
         $this->createTable('{{%carriage}}', [
             'id'        => $this->primaryKey(),
             'number'    => $this->string(8),
-            'year'      => $this->string(4),
+            'year'      => $this->integer(4),
             'thickness' => $this->integer(2),
         ]);
     }
